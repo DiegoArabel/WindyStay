@@ -1,0 +1,38 @@
+:root {
+    --first-color: #0979b0;
+    --second-color: #7cdaf9;
+    --third-color: #004173;
+    --fourth-color: #3c3c3c;
+}
+
+.navbar {
+    height: 5rem;
+    background-color: var(--first-color);
+    display: flex;
+    justify-content: center;
+}
+
+.navContainer {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: "Trebuchet MS";
+    font-size: 1.5rem;
+    font-style: italic;
+    color: white;
+}
+
+.navButton {
+    background-color: var(--first-color);
+    margin-left: 1rem;
+    border: none;
+    font-size: 1rem;
+    color: white;
+    font-family: verdana;
+    cursor: pointer;
+}

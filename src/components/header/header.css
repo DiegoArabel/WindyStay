@@ -1,0 +1,39 @@
+:root {
+    --first-color: #0979b0;
+    --second-color: #7cdaf9;
+    --third-color: #004173;
+    --fourth-color: #3c3c3c;
+}
+
+.header {
+    background-color: var(--first-color);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.headerContainer {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0rem 0rem 1rem 0rem;
+}
+
+.headerList {
+    display: flex;
+    gap: 2rem;
+}
+
+.headerListItem {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.headerListItem.active {
+    border-bottom: 1px solid white;
+    padding: 1rem;
+}
+
+.img {
+    
+}
