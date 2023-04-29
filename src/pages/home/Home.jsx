@@ -1,4 +1,5 @@
 import Header from "../../components/header/Header";
+import HeaderImg from "../../components/header/HeaderImg";
 import Navbar from "../../components/navbar/Navbar";
 import "./home.css";
 
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
         <Navbar/>
         <Header/>
+        <HeaderImg/>
     </div>
   );
 };
