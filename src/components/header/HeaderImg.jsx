@@ -1,4 +1,3 @@
-import img from '../../img/perito-moreno-header.jpg';
 import { faBed, faCalendarDays, faPerson } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { DateRange } from 'react-date-range';
@@ -34,8 +33,7 @@ const HeaderImg = () => {
     }
 
   return (
-    <div>
-        <img className="headerImg" src={img} alt="perito-moreno"/>
+    <div img className="headerImg">
             <div className="headerSearch">
                 <div className="headerSearchItem">
                     <FontAwesomeIcon icon={faBed} className="headerIcon"/>

@@ -1,0 +1,26 @@
+.card {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.cardItem {
+    border-radius: 1rem;
+    background-color: var(--first-color);
+    overflow: hidden;
+}
+
+.cardImg {
+    width: 100%;
+    object-fit: cover;
+}
+
+.cardTitles {
+    display: grid;
+    padding: 1rem;
+    gap: 0.5rem;
+    text-transform: uppercase;
+    color: var(--second-color);
+}

@@ -1,0 +1,18 @@
+.hList {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.hListItem {
+    border-radius: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.hListImg {
+    width: 100%;
+    object-fit: cover;
+}

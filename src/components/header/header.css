@@ -45,7 +45,11 @@
 .headerImg {
     width: 100%;
     z-index: 2;
-    opacity: 90%;
+    background-image: url(../../img/perito-moreno-header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 30rem;
+    padding-top: 1rem;
 }
 
 .headerSearch {
@@ -57,8 +61,7 @@
     border: 3px solid var(--first-color);
     align-items: center;
     justify-content: space-around;
-    margin: -14rem auto 0 auto;
-    opacity: 99%;
+    margin: 12.5rem auto;
 }
 
 .headerIcon {
@@ -79,13 +82,13 @@
 
 .date {
     position: absolute;
-    margin-top: 27.5rem;
+    margin-top: 25.5rem;
     margin-left: -2.5rem;
 }
 
 .options {
     position: absolute;
-    margin-top: 8rem;
+    margin-top: 9rem;
     background-color: white;
 }
 
