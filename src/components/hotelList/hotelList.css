@@ -16,3 +16,7 @@
     width: 100%;
     object-fit: cover;
 }
+
+.hListTitles {
+    margin-left: 0.5rem;
+}

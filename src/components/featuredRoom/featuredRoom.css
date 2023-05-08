@@ -1,0 +1,44 @@
+.fr {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.frItem {
+    flex: 1;
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.frImg {
+    width: 100%;
+    height: 12rem;
+}
+
+.frName {
+    font-weight: bold;
+}
+
+.frHotel {
+    font-weight: 300;
+}
+
+.frPrice {
+    font-weight: 500;
+}
+
+.frRating>button {
+    background-color: var(--first-color);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.frRating>span {
+    font-size: 14px;
+}
